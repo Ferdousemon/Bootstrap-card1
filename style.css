@@ -1,0 +1,47 @@
+body{
+    background: #fff;
+}
+.profile-area{
+   padding: 80px 0;
+}
+.card{
+    box-shadow: 0 0 30px rgb(0,0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+.main-text{
+    padding: 30px 0;
+    text-align: center;
+}
+.main-text p{
+    padding: 10px 10px;
+    font-size: 1rem;
+
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    font-size: 30px;
+    margin-left: 15px;
+}
